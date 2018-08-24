@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Checkout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	<link rel="stylesheet" href="checkout.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link rel="icon" href="mi.jpg" type="image/gif" sizes="16x16">
+
+  </head>
+  <body>
+  	<div class="container-fluid" id="whole">
+  		<div class="row">
+  			<div class="col-sm-12" id="head">
+  				<div class="container" id="head-box1">
+  					<h3>
+  						<span id="logo">
+  							<img src="mi.jpg" id="logomi" class="rounded">
+  						</span>
+  						  &nbsp MY CART
+  					</h3>
+  				</div> 					
+
+  				
+  			</div>
+  		</div>
+
+  		<div class="row" id="header1">
+  			<div class="col-sm-12" id="nav">
+  				<div class="container" id="nav-box1">
+  					<div class="row" >
+  						<div class="col-sm-3" id="menu1">
+  							<h5>1. SHOPPING CART</h5>
+  						</div>
+  						<div class="col-sm-0.5" id="arrow1" style="color:#f95b07 ">
+  							<span class="glyphicon">
+  							&#xe080;
+  							</span>
+  						</div>
+  						<div class="col-sm-4" id="menu2">
+  							<h5>2. ORDER INFORMATION</h5>
+  						</div>
+  						<div class="col-sm-0.5" id="arrow2">
+  							<span class="glyphicon glyphicon-chevron-right"></span>
+  						</div>
+  						<div class="col-sm-4" id="menu3">
+  							<h5>3. COMPLETE PAYMENT</h5>
+  						</div>
+
+  					</div>
+  				</div> 					
+
+  				
+  			</div>
+  		</div>
+
+  		<div class="row" id="header2">
+  			<div class="container" style="padding-top: 5px;padding-bottom: 5px;">
+  				Free shipping for orders above &#x20b9; 500
+  			</div>	
+  		</div>
+
+  		<div class="container" id="info1">
+  			<div class="row" id="row1">
+  				<div class="col-sm-1" id="tcol1">
+  					&nbsp;
+  				</div>
+  				<div class="col-sm-4" id="tcol1">
+  					Product-Name
+  				</div>
+  				<div class="col-sm-1" id="tcol1">
+  					Price
+  				</div>
+  				<div class="col-sm-2" id="tcol1">
+  					Quantity
+  				</div>
+  				<div class="col-sm-2" id="tcol1">
+  					Total
+  				</div>
+  				<div class="col-sm-2" id="tcol1">
+  					&nbsp;
+  				</div>
+  				
+  			</div>
+  			<div class="row" id="row2">
+  				<div class="col-sm-1" id="tcol2">
+  					&nbsp;
+  				</div>
+  				<div class="col-sm-4" id="tcol2">
+  					<div class="small" style="line-height: 1px;">
+  						<h5>Mi Earphones Basic Red</h5>
+  						<br>Sold by TVS ELECTRONICS LIMITED
+  					</div>
+  				</div>
+  				<div class="col-sm-1" id="tcol2">
+  					&#x20b9; 399
+  				</div>
+  				<div class="col-sm-2" id="tcol2">
+  					<input type="number" id="myNumber">
+  				</div>
+  				<div class="col-sm-2" id="tcol2">
+  					&#x20b9; 399 <br>
+  					<div class="small">
+  						Save &#x20b9;200
+  					</div>
+  				</div>
+  				<div class="col-sm-2" id="tcol2">
+  					<button style="font-size:24px;height: 35px;">
+  					&times;
+  					</button>
+  				</div>
+  				
+  			</div>
+  			<div class="row">
+  				<div class="col-sm-7" id="tcol3">
+  					&nbsp;
+  				</div>
+  				<div class="col-sm-5" id="tcol3">
+  					<h5>
+  						Delivery to-
+  					</h5>
+  					<input type="text" name="address" placeholder="Enter your Pincode" id="address">
+  					<button id="go">GO</button>
+  				</div>
+  				
+  			</div>
+  			<div class="row">
+  				<div class="col-sm-7" id="tcol4">
+  					&nbsp;
+  				</div>
+  				<div class="col-sm-5" id="tcol4">
+  					<div id="price">
+  						&#x20b9; 399
+  					</div>
+  					<br>
+  					<button id="continue" onclick="change1()">Checkout</button>
+  					Continue Shopping
+  				</div>
+  				
+  			</div>
+  		</div>
+
+  		<div class="container" id="info2">
+  			<div class="row" id="row1">
+  				<div class="col-sm-12" id="tcol21">
+  					Delivery Information
+  					
+  				</div>
+  				
+  			</div>
+  			<div class="row" id="row2">
+  				<div class="col-sm-12" id="tcol22" style="font-size: 15px;">
+  					Shipping
+  					<div style="color: #f95b07;font-size: 12px;">
+  						Free Shipping
+  					</div>
+  				</div>
+  				
+  			</div>
+  			<div class="row">
+  				<div class="col-sm-12" id="order-info" >
+  					Order Information
+  				</div>
+  			</div>
+  			<div class="row">
+  				<div class="col-sm-1" id="tcol23">
+  					
+  				</div>
+  				<div class="col-sm-5" id="tcol23">
+  					Mi Earphones Basic Red
+  				</div>
+  				<div class="col-sm-3" id="tcol23">
+  					&#x20b9; 399 x 1
+  				</div>
+  				<div class="col-sm-3" id="tcol23">
+  					&#x20b9; 399
+  				</div>
+  				
+  			</div>
+  			<div class="row">
+  				<div class="col-sm-7" id="tcol24">
+  					&nbsp;
+  				</div>
+  				<div class="col-sm-5" id="tcol24" style="text-align: right;">
+  					Subtotal: &#x20b9; 399
+  					<br>
+  					Shipping: Free Shipping
+  					<br>
+  					<div class="total">
+  						Total: 
+  						<h3 style="margin-bottom: 0;">
+  							&#x20b9; 399
+  						</h3>
+  					</div>
+  					<button id="continue2" onclick="change2()">Place Order</button>
+  					
+  				</div>
+  				
+  			</div>
+  		</div>
+
+  		<div class="container" id="info3">
+  			<div class="row">
+  				<div class="col-sm-1">
+  					&nbsp;
+  				</div>
+  				<div class="col-sm-2">
+  					<div class="row" style="margin-top: 30px;">
+  						<div class="col-sm-12" id="payside1" style="background-color: white;" onclick="show1()"> 
+  							Credit Card
+  						</div>
+  						<div class="col-sm-12" id="payside2" onclick="show2()"> 
+  							UPI
+  						</div>
+  						<div class="col-sm-12" id="payside3" onclick="show3()"> 
+  							Cash on Delivery
+  						</div>
+  						<div class="col-sm-12" id="payside4"> 
+  							Net Banking
+  						</div>
+  					</div>
+  				</div>
+  				<div class="col-sm-8">
+  					<div class="row" >
+  						<div class="container-fluid" id="pay1">
+  							<input type="text" name="card-no" placeholder="Card-Number" id="card-no">
+  							<br>
+  							<input type="text" name="card-name" placeholder="Name on Card" id="card-name">
+  							<br>
+  							<input type="text" name="card-exp" placeholder="Expiry Date e.g. MM/YYYY " id="card-exp">
+  							<br>
+  							<input type="text" name="cvv" placeholder="CVV " id="cvv">
+  							<br>
+  							<button id="payfinal" onclick="paydone()">
+  								Pay
+  							</button>
+  						</div>
+  						<div class="container-fluid" id="pay2">
+  							<input type="text" name="phone" placeholder="Phone-Number" id="phone">
+  							<br>
+  							<input type="text" name="pin" placeholder="Pin" id="pin">
+  							<br>
+  							
+  							<button id="payfinal" onclick="paydone()">
+  								Pay
+  							</button>
+  						</div>
+  						<div class="container-fluid" id="pay3">
+  							<input type="text" name="address" placeholder="Address" id="address">
+  							<br>
+  							<button id="payfinal" onclick="paydone()">
+  								Pay
+  							</button>
+  						</div>
+  						<div class="container-fluid" id="pay4">
+  							
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+
+  		<div class="container" id="paydone">
+  				<center>
+  					<h3>
+  						Thanks for Shopping.
+  					<br>
+  					</h3>
+  					<h1>
+  						&#x263A;
+  					</h1>
+  				</center>
+  		</div>
+
+  		<div class="row">
+  			<div class="col-sm-12" style="height: 30px;">
+  				
+  			</div>
+  		</div>
+
+  		<div class="row" id="footer">
+  			<div class="col-sm-12">
+  				<div class="container">
+  					<div class="small">
+  					<div class="row">
+  						<div class="col-sm-2">
+  							<h5>
+  								SUPPORT
+  							</h5>
+  						</div>
+  						<div class="col-sm-2">
+  							 <h5>
+  								SHOP & LEARN
+  							</h5> 							
+  						</div>
+  						<div class="col-sm-2">
+  							<h5>
+  								RETAIL STORE
+  							</h5>							
+  						</div>
+  						<div class="col-sm-2">
+  							<h5>
+  								ABOUT
+  							</h5>						
+  						</div>
+  						<div class="col-sm-2">
+  							  	<h5>
+  								CONTACT US
+  							</h5>						
+  						</div>
+  						<div class="col-sm-2">
+  								&nbsp;						
+  						</div>
+  						
+  					</div>
+  					<div class="row">
+  						<div class="col-sm-2">
+  							Customer Service
+  						</div>
+  						<div class="col-sm-2">
+  							Mi Max 2/Mi MIX 2/Mi A1
+  						</div>
+  						<div class="col-sm-2">
+  							Mi Home
+  						</div>
+  						<div class="col-sm-2">
+  							Xiomi
+  						</div>
+  						<div class="col-sm-2">
+  							
+  						</div>
+  						<div class="col-sm-2">
+  							
+  						</div>
+  						
+  					</div>
+  					<div class="row">
+  						<div class="col-sm-2">
+  							Shipping FAQ
+  						</div>
+  						<div class="col-sm-2">
+  							Redmi Note 5
+  						</div>
+  						<div class="col-sm-2">
+  							Mi Authorized Stores
+  						</div>
+  						<div class="col-sm-2">
+  							Mediakit
+  						</div>
+  						<div class="col-sm-2">
+  							Email
+  						</div>
+  						<div class="col-sm-2">
+  							
+  						</div>
+  						
+  					</div>
+  					<div class="row">
+  						<div class="col-sm-2">
+  							Service Center
+  						</div>
+  						<div class="col-sm-2">
+  							Redmi Note 5 Pro
+  						</div>
+  						<div class="col-sm-2">
+  							&nbsp;
+  						</div>
+  						<div class="col-sm-2">
+  							Culture
+  						</div>
+  						<div class="col-sm-2">
+  							Careers
+  						</div>
+  						<div class="col-sm-2">
+  							
+  						</div>
+  						
+  					</div>
+  					<div class="row">
+  						<div class="col-sm-2">
+  							Warranty
+  						</div>
+  						<div class="col-sm-2">
+  							Redmi Y1/ Redmi Y1 Lite
+  						</div>
+  						<div class="col-sm-2">
+  							&nbsp;
+  						</div>
+  						<div class="col-sm-2">
+  							Privacy Policy
+  						</div>
+  						<div class="col-sm-2">
+  							&nbsp;
+  						</div>
+  						<div class="col-sm-2">
+  							
+  						</div>
+  						
+  					</div>
+  					<div class="row">
+  						<div class="col-sm-2">
+  							Bulk Orders
+  						</div>
+  						<div class="col-sm-2">
+  							Redmi Note 4/Redmi 4
+  						</div>
+  						<div class="col-sm-2">
+  							&nbsp;
+  						</div>
+  						<div class="col-sm-2">
+  							&nbsp;
+  						</div>
+  						<div class="col-sm-2">
+  							&nbsp;
+  						</div>
+  						<div class="col-sm-2">
+  							
+  						</div>
+  						
+  					</div>
+  					</div>	
+  				</div>
+  				
+  			</div>
+  		</div>
+
+
+  	</div>
+
+
+  	<script type="text/javascript">
+  		var a=document.getElementById("logomi");
+  		var b=document.getElementById("info1");
+  		var c=document.getElementById("info2");
+  		var d=document.getElementById("menu1");
+  		var e=document.getElementById("menu2");
+  		var arrow1=document.getElementById("arrow1");
+  		var arrow2=document.getElementById("arrow2");
+  		var g=document.getElementById("info3");
+  		var h=document.getElementById("menu3");
+  		var i=document.getElementById("header1");
+  		var j=document.getElementById("header2");
+  		var k=document.getElementById("paydone");
+  		var arr=["pay1","pay2","pay3","pay4"]
+
+  		a.addEventListener("mouseover",function(){
+  			a.src="home.jpg";
+  		});
+  		a.addEventListener("mouseout",function(){
+  			a.src="mi.jpg";
+  		});
+
+  		function change1(){
+  			b.style.display='none';
+  			c.style.display='block';
+  			d.style.color='#000000';
+  			e.style.color='#f95b07';
+  			arrow1.style.color='#000000';
+  			arrow2.style.color='#f95b07';
+  		}
+  		function change2(){
+  			c.style.display='none';
+  			g.style.display='block';
+  			e.style.color='#000000';
+  			h.style.color='#f95b07';
+  			arrow2.style.color='#000000';
+  		}
+  		function paydone(){
+  			b.style.display='none';
+  			c.style.display='none';
+  			g.style.display='none';
+  			i.style.display='none';
+  			j.style.display='none';
+  			k.style.display='block';
+  		}
+  		function show2(){
+  			var sh1=document.getElementById("pay1");
+  			var sh2=document.getElementById("pay2");
+  			var sh3=document.getElementById("pay3");
+  			sh2.style.display='block';
+  			sh1.style.display='none';
+  			sh3.style.display='none';
+
+  		}
+  		function show1(){
+  			var sh1=document.getElementById("pay1");
+  			var sh2=document.getElementById("pay2");
+  			var sh3=document.getElementById("pay3");
+  			sh1.style.display='block';
+  			sh2.style.display='none';
+  			sh3.style.display='none';
+  			
+  		}
+  		function show3(){
+  			var sh1=document.getElementById("pay1");
+  			var sh2=document.getElementById("pay2");
+  			var sh3=document.getElementById("pay3");
+  			sh3.style.display='block';
+  			sh1.style.display='none';
+  			sh2.style.display='none';
+  			
+  		}
+
+  	
+  	</script>
+  </body>
+ </html>

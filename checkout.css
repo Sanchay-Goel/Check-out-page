@@ -1,0 +1,270 @@
+#whole{
+	background-color: #f2f2f2;
+	height: 100%;
+}
+#head{
+	background-color: #ffffff;
+	height: 20%;
+	border-bottom: 1px solid #ff6700; 
+}
+#head-box1{
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#nav{
+	background-color: #ffffff;
+	height: 20%;
+}
+#nav-box1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#logomi{
+	height: 50px;
+	width: 50px;
+	margin-top: -10px;
+}
+#menu1, #menu2, #menu3{
+	
+}
+#order-info{
+	font-size: 15px;
+	
+}
+#menu1{
+	color: #f95b07;
+}
+#arrow1, #arrow2{
+	
+	padding-top: 8px;
+}
+#info1{
+	background-color: #ffffff;
+	width: 1000px;
+}
+#info2{
+	background-color: #ffffff;
+	width: 1000px;
+	display: none;*/
+}
+#info3{
+	background-color: #ffffff;
+	width: 1000px;
+	display: none;*/
+}
+#tcol1{
+	
+	height: 30px;
+	font-size: 12px;
+	align-content: center;
+	padding-top: 8px;
+	height: 50px;
+}
+#tcol2{
+	
+	height: 30px;
+	font-size: 12px;
+	align-content: center;
+	padding-top: 8px;
+	height: 100px;
+}
+#tcol3{
+	
+	height: 30px;
+	font-size: 12px;
+	align-content: center;
+	padding-top: 30px;
+	padding-left: 25px;
+	height: 140px;
+}
+ #tcol4{
+	
+	height: 30px;
+	font-size: 12px;
+	align-content: center;
+	padding-top: 50px;
+	height: 140px;
+	float: right;
+	line-height: 9px;
+}
+#myNumber{
+	width: 100px;
+	height: 30px;
+}
+#address{
+	height: 25px;
+    width: 67%;
+    padding: 0 20px;
+}
+#go{
+	height: 25px;
+    width: 29%;
+    text-align: center;
+}
+#continue{
+	float: right;
+	height: 30px;
+	margin-right: 80px;
+	width: 120px;
+	bottom: 20px;
+	color: white;
+	background-color: #f95b07;
+}
+#price{
+	color: #f95b07;
+	font-size: 25px;
+	margin-left: 200px;
+    height: 10px;
+}
+#tcol21{
+	
+	height: 30px;
+	font-size: 15px;
+	align-content: center;
+	padding-top: 20px;
+	height: 50px;
+}
+#tcol22{
+	
+	height: 30px;
+	font-size: 12px;
+	align-content: center;
+	padding-top: 20px;
+	height: 100px;
+
+}
+#tcol23{
+	
+	height: 30px;
+	font-size: 12px;
+	align-content: center;
+	padding-top: 30px;
+	padding-left: 25px;
+	height: 70px;
+}
+#tcol24{
+	
+	height: 30px;
+	font-size: 12px;
+	align-content: center;
+	padding-top: 20px;
+	height: 170px;
+	float: right;
+	line-height: 15px;
+}
+#continue2{
+	float: right;
+	height: 30px;
+	margin-right: 40px;
+	width: 150px;
+	bottom: 20px;
+	color: white;
+	background-color: #f95b07;
+	padding: 5px 20px;
+}
+#footer{
+	color: #ffffff;
+	background-color: #212121;
+	font-size: 12px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	bottom: 0;
+	margin-bottom: 0;
+}
+#payside1, #payside2, #payside3, #payside4{
+	height: 50px;
+	border: 1px solid #000000;
+	background-color: #f2f2f2;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	cursor: pointer;
+	/*border-top: 2px solid white;*/
+
+}
+
+#pay1{
+	
+	height: 250px;
+	margin: 30px;
+	padding: 20px;
+}
+#pay2{
+	
+	height: 250px;
+	margin: 30px;
+	padding: 20px;
+	display: none;
+}
+#pay3{
+	
+	height: 250px;
+	margin: 30px;
+	padding: 20px;
+	display: none;
+}
+#pay4{
+	
+	height: 250px;
+	margin: 30px;
+	padding: 20px;
+	display: none;	
+}
+#card-no{
+	height: 30px;
+	width: 200px;
+	padding-left: 20px;
+}
+#card-name{
+	height: 30px;
+	margin-top: 6px;
+	width: 200px;
+	padding-left: 20px;
+}
+#card-exp{
+	height: 30px;
+	margin-top: 6px;
+	width: 240px;
+	padding-left: 20px;
+}
+#cvv{
+	height: 30px;
+	margin-top: 6px;
+	width: 200px;
+	padding-left: 20px;
+}
+#pin{
+	height: 30px;
+	margin-top: 6px;
+	width: 200px;
+	padding-left: 20px;
+}
+#phone{
+	height: 30px;
+	margin-top: 6px;
+	width: 200px;
+	padding-left: 20px;
+}
+#payfinal{
+	height: 30px;
+	margin-top: 6px;
+	width: 120px;
+	color: white;
+	background-color: #f95b07;
+	margin-left: 200px;
+}
+#paydone{
+	display:none;
+	height: 450px;
+	margin-left: 50x;
+	background-color: white;
+	padding-top: 100px;
+	margin-top: 30px;
+
+}
+
+
+
+
+
+
